@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-image: url("istockphoto-pawprints.jpg");
+    background-repeat: repeat;
+  }
+  
+.mainbox {
+    width: 1000px;
+    height: 800px; 
+    background-color: lightgray;
+    margin: 20px;
+    text-align: left;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+header {
+    width: 1000px;
+    height: 30px;
+    background-color:rgb(104, 104, 106);
+    padding-top: 2pt;
+}
+
+.textwhite {
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+nav {
+    width: 1000px;
+    height: 470px;
+    background-color:lightgray;
+    padding: 50px;
+}
+
+nav a:link {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+nav a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+nav a:hover {
+    color: darkcyan;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.navbox {
+    width: 110px;
+    height: 120px;
+    background-color:darkcyan;
+    float:left;
+    margin: 1px;
+}
+
+#whitebox {
+    background-color: lightgray;
+}
+
+.belownavbox {
+    width: 1000px;
+    height: 30px;
+    background-color:rgb(104, 104, 106);
+    margin-bottom: 20px;
+}
+
+section {
+    width: 1000px;
+    height: 200px;
+    background-color:lightsteelblue;
+}
+
+.sectionbox {
+    width: 210px;
+    height: 150px;
+    margin:20px;
+    background-color:lightsteelblue;
+    float: left;
+    border: 2px solid darkcyan;
+}
+
+#sectionbox1 {
+    border: 2px solid lightsteelblue;
+    color:black;
+    font-size: smaller;
+}
+
+section a:link {
+    color: antiquewhite;
+    background-color:darkcyan;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border:2px solid darkcyan;
+}
+  
+section a:visited {
+    color: antiquewhite;
+    background-color: rgb(104, 104, 106);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid darkcyan;
+}
+  
+section a:hover {
+    color: rgb(104, 104, 106);
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid darkcyan;
+} 
+
+footer {
+    width: 1000px;
+    height: 32px;
+    background-color:rgb(104, 104, 106);
+    margin-top: 20px;
+    padding-left: 750px;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
